@@ -2,6 +2,5 @@ numpy
 scikit-learn
 scikit-image
 pillow
-pickle
 streamlit
 python-opencv
