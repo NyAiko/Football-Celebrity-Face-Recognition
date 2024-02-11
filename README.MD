@@ -29,7 +29,7 @@ After removing the duplicated images, we have 1382 images in total.
 The trained model has 86% of accuracy on the test set. This is a short overview on how the model is making predictions.
 
 
-! [image](screenshoot/confusion_matrix.png)
+![image](screenshoot/confusion_matrix.png)
 
 ## How to Open the Notebook
 
