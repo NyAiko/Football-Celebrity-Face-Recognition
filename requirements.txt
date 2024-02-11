@@ -3,4 +3,4 @@ scikit-learn
 scikit-image
 pillow
 streamlit
-python-opencv
+opencv-python
