@@ -25,8 +25,11 @@ After removing the duplicated images, we have 1382 images in total.
 3. **Tune Hyperparameters**: Tuned the C parameters of the SVM and found C=2.0 the optimal
 4. **Deployment**: Web app and its deployments made simple with 'Streamlit' available [here](https://football-celebrity-face-recognition.streamlit.app/)
 ## Model Performance
-The trained model has 86% of accuracy on the test set.
-![image](screenshoot/confusion_matrix.png)
+
+The trained model has 86% of accuracy on the test set. This is a short overview on how the model is making predictions.
+
+
+! [image](screenshoot/confusion_matrix.png)
 
 ## How to Open the Notebook
 
