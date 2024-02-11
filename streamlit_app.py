@@ -14,7 +14,7 @@ with open('hog_parameters.para','rb') as f:
 def HOG(x):
     return hog(x,pixels_per_cell=parameters['pixels_per_cell'],
                cells_per_block=parameters['cells_per_block'],
-               orientations=parameters['orientations'])
+               orientations=parameters['orientations'],multichannel=True)
 
 def extract_HOG(X):
     features = HOG(X)
