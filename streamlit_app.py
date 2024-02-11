@@ -12,6 +12,7 @@ with open('hog_parameters.para','rb') as f:
     parameters=pickle.load(f)
 
 def HOG(x):
+    x= cv2.cvtColor(x, cv2.COLOR_BGR2GRAY)
     return hog(x,pixels_per_cell=parameters['pixels_per_cell'],
                cells_per_block=parameters['cells_per_block'],
                orientations=parameters['orientations'])
