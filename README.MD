@@ -1,10 +1,10 @@
 # Football Face recognition
 
-**Model:** Non-Deep Learning football star face recognition [!application]
+**Model:** Non-Deep Learning football star face recognition [application](https://football-celebrity-face-recognition.streamlit.app/)
 
 ## Libary Used
 
-1. **Python** T 
+1. **Python** 
 2. **Pandas**  
 3. **Matplotlib**  
 4. **Scikit-Learn**  
@@ -22,7 +22,7 @@ After removing the duplicated images, we have 1382 images in total.
 1. **Features extraction**: I used Histogram of Oriented Gradients(HOG) to convert images as feature vectors
 2. **Model training**: Trained a Support Vector Machine(SVM) algorithms as a classifier
 3. **Tune Hyperparameters**: Tuned the C parameters of the SVM and found C=2.0 the optimal
-4. **Deployment**: Web app and its deployments made simple with 'Streamlit' available here
+4. **Deployment**: Web app and its deployments made simple with 'Streamlit' available [here](https://football-celebrity-face-recognition.streamlit.app/)
 ## Model Performance
 The trained model has 86% of accuracy on the test set.
 
