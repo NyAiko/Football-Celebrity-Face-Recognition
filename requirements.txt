@@ -1,6 +1,7 @@
 numpy
 scikit-learn
 scikit-image
+matplotlib
 pillow
 streamlit
 opencv-python-headless
