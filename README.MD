@@ -2,9 +2,8 @@
 
 **Model:** Non-Deep Learning football star face recognition [application](https://football-celebrity-face-recognition.streamlit.app/)
 
-## Libary Used
-
-1. **Python** 
+## Python Libaries:
+ 
 2. **Pandas**  
 3. **Matplotlib**  
 4. **Scikit-Learn**  
@@ -16,6 +15,8 @@
 The data are faces collected from publicly available sources and free of rights from Google Images.
 It has 5 classes: Ronaldo, Neymar, Modric, Messi, Mbappe, Ibrahimovic, Haaland, Benzema and Unknown. 
 After removing the duplicated images, we have 1382 images in total.
+![image](screenshoot/screenshoot1.png)
+![image](screenshoot/screenshoot2.png)
 
 ## Model training:
 0. **Image Processing**: Resize image into (80,80), put them into grayscale and then perform histogram equalization on each images
@@ -25,6 +26,7 @@ After removing the duplicated images, we have 1382 images in total.
 4. **Deployment**: Web app and its deployments made simple with 'Streamlit' available [here](https://football-celebrity-face-recognition.streamlit.app/)
 ## Model Performance
 The trained model has 86% of accuracy on the test set.
+![image](screenshoot/confusion_matrix.png)
 
 ## How to Open the Notebook
 
