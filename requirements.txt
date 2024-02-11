@@ -1,7 +1,7 @@
 numpy
 scikit-learn
 scikit-image
-PIL
+pillow
 pickle
 streamlit
 python-opencv
